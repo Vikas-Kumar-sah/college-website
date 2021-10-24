@@ -53,14 +53,15 @@
 	
 		
 		<div class="send-col">
-		<form action="">
-			<input type="text" placeholder="Enter your name" required>
-			<br><input type="email" placeholder="Enter your email" required>
-			<br><input type="text" placeholder="Enter your subject" required>
-			<br><textarea rows="4" cols="10" placeholder="Message" required></textarea>
-			
+		<form action="form.php" method="post">
+			<input type="text" name="name" placeholder="Enter your name" required>
+			<br><input type="email" name="email" placeholder="Enter your email" required>
+			<br><input type="text" name="subject" placeholder="Enter your subject" required>
+			<br><textarea rows="4" name="message" 
+			cols="10" placeholder="Message" required></textarea>
+			<br><button type="submit" class="send-btn">Send Message</button>
 		</form>
-		<a href="" class="send-btn">Send Message</a>
+		
 		</div>
 	
 </section>

@@ -295,7 +295,7 @@ nav{
 	padding: 12px 30px;
 	font-size: 15px;
 	background: transparent;
-	position: relative;
+	position: left;
 	cursor: pointer;
 }
 .send-btn:hover{
